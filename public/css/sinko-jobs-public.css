@@ -1,0 +1,277 @@
+/**
+* All of the CSS for your public-facing functionality should be
+* included in this file.
+*/
+
+.sinko_jobs_list_row {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 10px 0;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+}
+.sinko_jobs_list_row:last-child {
+	border-bottom: none;
+}
+
+.sinko_jobs_job_title:hover {
+	text-decoration: underline;
+}
+.sinko_jobs_job_status,
+.sinko_jobs_job_location {
+	margin-bottom: 0 !important;
+}
+.sinko_jobs_job_title {
+	width: 50%;
+}
+.sinko_jobs_job_status {
+	width: 20%;
+	padding-right: 25px;
+}
+.sinko_jobs_job_location {
+	width: 25%;
+	text-align: right;
+}
+.sinko_jobs_list_heading {
+	border-bottom: 1px solid;
+	margin-bottom: 10px;
+}
+.sinko_jobs_list_heading .sinko_jobs_job_title {
+	margin-bottom: 0;
+}
+.single-jobs .avada-page-titlebar-wrapper {
+	display: none;
+}
+.single-jobs main#main {
+	padding: 0 !important;
+}
+.single-jobs main#main > .fusion-row {
+	max-width: 100%;
+}
+.sinko_job_single_page_header {
+	background-color: #274955;
+	padding: 240px 20px 50px;
+}
+.sinko_job_single_job_type,
+.sinko_job_single_job_location {
+	color: #fff;
+	font-size: 18px;
+	text-transform: uppercase;
+}
+.sinko_job_single_job_title {
+	color: #fff;
+	font-size: 44px;
+	letter-spacing: 0px;
+	margin: 0 0 25px;
+}
+.sinko_job_single_job_back {
+	color: #fff;
+	font-size: 14px;
+}
+.sinko_job_single_job_separator {
+	background-color: #fff;
+	height: 2px;
+	max-width: 100px;
+	margin: 20px 0;
+}
+.sinko_job_single_job_back:hover {
+	color: #fff;
+	text-decoration: underline;
+}
+.sinko_job_single_page_nav {
+	background-color: #e3e9ec;
+	padding: 20px;
+	font-size: 14px;
+	line-height: 1;
+}
+.sinko_job_single_page_nav .fusion-row {
+	display: flex;
+	align-items: center;
+}
+.sinko_job_single_page_nav .fusion-row > div:not(:last-child) {
+	margin-right: 50px;
+}
+.sinko_job_single_page_nav .fusion-row > div > span {
+	font-weight: bold;
+}
+.sinko_job_single_job_status {
+	display: flex;
+	align-items: center;
+}
+.sinko_job_single_job_status_indicator {
+	width: 8px;
+	height: 8px;
+	border-radius: 8px;
+	margin-right: 10px;
+}
+.sinko_job_single_job_status_indicator.closed {
+	background-color: #d60000;
+}
+.sinko_job_single_job_status_indicator.open {
+	background-color: #01cbe1;
+}
+.sinko_job_single_job_status_indicator.interviews-started {
+	background-color: #01e054;
+}
+.sinko_job_single_job_status_indicator.fulfilled {
+	background-color: #92a3ff;
+}
+.sinko_job_single_job_content {
+	padding: 30px 20px 50px;
+}
+.single-jobs main#main article.post {
+	margin-bottom: 0;
+}
+.sinko_job_single_job_form_wrapper {
+	background-color: #f2f5f6;
+	padding: 20px 0;
+	display: none;
+}
+.sinko_job_single_job_form_trigger {
+	background: var(--button_gradient_top_color);
+	padding: 13px 40px;
+	font-size: 14px;
+	color: #03112c;
+	border: none;
+	font-weight: 900;
+	text-transform: uppercase;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.sinko_job_single_job_form_trigger:hover {
+	background-color: #81ffdc;
+}
+.sinko_job_single_job_form .gform_wrapper.gravity-theme .gfield textarea.large {
+	height: 300px;
+	padding: 15px;
+}
+.sinko_job_single_job_form .ginput_container_multiselect select {
+	height: 300px !important;
+	padding: 10px !important;
+}
+.sinko_job_single_job_form .ginput_container_multiselect select option {
+	padding: 8px 10px;
+}
+.sinko_job_single_job_form .acf-repeater-add-row,
+.sinko_job_single_job_form .acf-form-submit input.acf-button {
+	background: var(--button_gradient_top_color);
+	padding: 10px 16px;
+	font-size: 12px;
+	color: #03112c;
+	border: none;
+	font-weight: 900;
+	text-transform: uppercase;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+}
+.sinko_job_single_job_form .acf-form-submit input.acf-button {
+	padding: 13px 30px;
+	font-size: 14px;
+}
+.sinko_job_single_job_form .acf-repeater-add-row:hover,
+.sinko_job_single_job_form .acf-form-submit input.acf-button:hover {
+	background-color: #81ffdc;
+}
+.sinko_job_single_job_form #acf-field_63cb826d23d8a {
+	min-height: 230px;
+	padding: 10px;
+}
+.sinko_job_single_job_form #acf-field_63cb826d23d8a option {
+	padding: 10px;
+}
+.sinko_job_single_job_form .acf-fields.-left > .acf-field {
+	padding: 10px 0;
+}
+.sinko_job_single_job_form .acf-fields.-left > .acf-field .acf-label {
+	font-size: 14px;
+	margin-top: 10px;
+}
+.sinko_job_single_job_form .acf-form-submit {
+	margin: 5px 16px 20px;
+}
+.sinko_job_single_job_form_success {
+	font-size: 18px;
+	padding: 20px 0;
+	color: #00e9a9;
+}
+p.sinko_jobs_job_title, p.sinko_jobs_job_status, p.sinko_jobs_job_location {
+	color: #000 !important;
+}
+
+@media only screen and (max-width: 991px) {
+	.sinko_job_single_page_header {
+		padding: 50px 20px 30px;
+	}
+	.sinko_jobs_list_row {
+		flex-wrap: wrap;
+	}
+	.sinko_jobs_job_title,
+	.sinko_jobs_job_status,
+	.sinko_jobs_job_location {
+		width: 100%;
+	}
+	.sinko_jobs_job_status,
+	.sinko_jobs_job_location {
+		font-size: 13px;
+		text-align: left;
+	}
+	.sinko_jobs_job_status {
+		padding-right: 0;
+	}
+}
+
+@media only screen and (max-width: 767px) {
+	.sinko_job_single_page_nav .fusion-row {
+		flex-wrap: wrap;
+		gap: 15px 0;
+	}
+	.sinko_job_single_page_nav .fusion-row > div {
+		width: 100%;
+	}
+	.sinko_job_single_page_nav .fusion-row > div:not(:last-child) {
+		margin-right: 0;
+	}
+
+	.sinko_job_single_job_status {
+		width: 100%;
+	}
+}
+
+/* Download Resume */
+
+/* Page Definitions */
+@page WordSection1 {
+	size: 595.3pt 841.9pt;
+	margin: 56.7pt 56.7pt 56.7pt 56.7pt;
+}
+div.WordSection1 {
+	page: WordSection1;
+}
+.download-page-wrapper {
+	max-width: fit-content;
+	margin: auto;
+	padding: 30px;
+	box-shadow: 0 0 7px rgba(0, 0, 0, 0.15);
+	border-radius: 10px;
+}
+#download-btn,
+#download-attached-file {
+	background: var(--button_gradient_top_color);
+	padding: 13px 40px;
+	font-size: 14px;
+	color: #03112c;
+	border: none;
+	font-weight: 900;
+	text-transform: uppercase;
+	border-radius: 5px;
+	cursor: pointer;
+	transition: all 0.3s ease-in-out;
+	margin-top: 20px;
+	font-family: 'Helvetica Neue', serif;
+}
+#download-btn:hover,
+#download-attached-file:hover {
+	background-color: #81ffdc;
+}

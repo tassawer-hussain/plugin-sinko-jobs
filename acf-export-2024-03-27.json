@@ -1,0 +1,618 @@
+[
+    {
+        "key": "group_63cb6e8484e58",
+        "title": "Job Apply form",
+        "fields": [
+            {
+                "key": "field_63cb93f380055",
+                "label": "First Name",
+                "name": "first_name",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_63cb93fc80056",
+                "label": "Last Name",
+                "name": "last_name",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_63cb7fc5c033e",
+                "label": "Position",
+                "name": "position",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_63cb6e858fc1a",
+                "label": "Current Location",
+                "name": "current_location",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_63cb8048c033f",
+                "label": "Nationality",
+                "name": "nationality",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_63cb812ec0340",
+                "label": "Summary",
+                "name": "summary",
+                "aria-label": "",
+                "type": "textarea",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "rows": "",
+                "placeholder": "",
+                "new_lines": ""
+            },
+            {
+                "key": "field_63cb73bd7101e",
+                "label": "Experience",
+                "name": "experience",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "pagination": 0,
+                "min": 1,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Add Experience",
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_63cb73cd7101f",
+                        "label": "Position",
+                        "name": "experience_position",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_63cb73bd7101e"
+                    },
+                    {
+                        "key": "field_63cb81a3c0341",
+                        "label": "Company",
+                        "name": "company",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_63cb73bd7101e"
+                    },
+                    {
+                        "key": "field_63cb81b4c0342",
+                        "label": "Location",
+                        "name": "location",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_63cb73bd7101e"
+                    },
+                    {
+                        "key": "field_63cb81bec0343",
+                        "label": "From",
+                        "name": "from",
+                        "aria-label": "",
+                        "type": "date_picker",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "display_format": "d\/m\/Y",
+                        "return_format": "d\/m\/Y",
+                        "first_day": 1,
+                        "parent_repeater": "field_63cb73bd7101e"
+                    },
+                    {
+                        "key": "field_63cb81cfc0344",
+                        "label": "To",
+                        "name": "to",
+                        "aria-label": "",
+                        "type": "date_picker",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "display_format": "d\/m\/Y",
+                        "return_format": "d\/m\/Y",
+                        "first_day": 1,
+                        "parent_repeater": "field_63cb73bd7101e"
+                    }
+                ]
+            },
+            {
+                "key": "field_63cb8226bd57a",
+                "label": "Education",
+                "name": "education",
+                "aria-label": "",
+                "type": "repeater",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "layout": "row",
+                "pagination": 0,
+                "min": 1,
+                "max": 0,
+                "collapsed": "",
+                "button_label": "Add Education",
+                "rows_per_page": 20,
+                "sub_fields": [
+                    {
+                        "key": "field_63cb8226bd57d",
+                        "label": "School \/ University",
+                        "name": "school_university",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_63cb8226bd57a"
+                    },
+                    {
+                        "key": "field_63d8e702ed788",
+                        "label": "Degree",
+                        "name": "degree",
+                        "aria-label": "",
+                        "type": "text",
+                        "instructions": "",
+                        "required": 0,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "default_value": "",
+                        "maxlength": "",
+                        "placeholder": "",
+                        "prepend": "",
+                        "append": "",
+                        "parent_repeater": "field_63cb8226bd57a"
+                    },
+                    {
+                        "key": "field_63cb8226bd57e",
+                        "label": "From",
+                        "name": "from",
+                        "aria-label": "",
+                        "type": "date_picker",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "display_format": "d\/m\/Y",
+                        "return_format": "d\/m\/Y",
+                        "first_day": 1,
+                        "parent_repeater": "field_63cb8226bd57a"
+                    },
+                    {
+                        "key": "field_63cb8226bd57f",
+                        "label": "To",
+                        "name": "to",
+                        "aria-label": "",
+                        "type": "date_picker",
+                        "instructions": "",
+                        "required": 1,
+                        "conditional_logic": 0,
+                        "wrapper": {
+                            "width": "",
+                            "class": "",
+                            "id": ""
+                        },
+                        "display_format": "d\/m\/Y",
+                        "return_format": "d\/m\/Y",
+                        "first_day": 1,
+                        "parent_repeater": "field_63cb8226bd57a"
+                    }
+                ]
+            },
+            {
+                "key": "field_63cb826d23d8a",
+                "label": "Languages",
+                "name": "languages",
+                "aria-label": "",
+                "type": "select",
+                "instructions": "",
+                "required": 1,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "English": "English",
+                    "Dutch": "Dutch",
+                    "German": "German",
+                    "French": "French",
+                    "Chinese": "Chinese",
+                    "Mandarin": "Mandarin",
+                    "Japanese": "Japanese",
+                    "Vietnamese": "Vietnamese",
+                    "Bahasa Indonesia": "Bahasa Indonesia",
+                    "Bahasa Malaysia": "Bahasa Malaysia",
+                    "Thai": "Thai",
+                    "Spanish": "Spanish",
+                    "Russian": "Russian",
+                    "Portugese": "Portugese",
+                    "Danish": "Danish",
+                    "Finnish": "Finnish",
+                    "Swedish": "Swedish",
+                    "Italian": "Italian"
+                },
+                "default_value": [],
+                "return_format": "value",
+                "multiple": 1,
+                "allow_null": 0,
+                "ui": 1,
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_63cb836d23d8e",
+                "label": "Notice Period",
+                "name": "notice_period",
+                "aria-label": "",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "1-2 weeks": "1-2 weeks",
+                    "2-3 weeks": "2-3 weeks",
+                    "3-4 weeks": "3-4 weeks",
+                    "4-5 weeks": "4-5 weeks"
+                },
+                "default_value": false,
+                "return_format": "value",
+                "multiple": 0,
+                "allow_null": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_63d60772f93c9",
+                "label": "Full CV",
+                "name": "full_cv",
+                "aria-label": "",
+                "type": "file",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "return_format": "url",
+                "library": "uploadedTo",
+                "min_size": "",
+                "max_size": "",
+                "mime_types": "pdf, docx, doc, xls, xlsx, zip"
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "job-entries"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    },
+    {
+        "key": "group_63bda7541c5f3",
+        "title": "Job Fields",
+        "fields": [
+            {
+                "key": "field_63bda7543bdc5",
+                "label": "Job Status",
+                "name": "job_status",
+                "aria-label": "",
+                "type": "select",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Open": "Open",
+                    "Closed": "Closed",
+                    "Interviews started": "Interviews started",
+                    "Fulfilled": "Fulfilled"
+                },
+                "default_value": false,
+                "return_format": "label",
+                "multiple": 0,
+                "allow_null": 0,
+                "ui": 0,
+                "ajax": 0,
+                "placeholder": ""
+            },
+            {
+                "key": "field_63bda99545805",
+                "label": "Job Posted On",
+                "name": "job_posted_on",
+                "aria-label": "",
+                "type": "date_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "d\/m\/Y",
+                "return_format": "j F Y",
+                "first_day": 1
+            },
+            {
+                "key": "field_63bdae9d45806",
+                "label": "Job Closing On",
+                "name": "job_closing_on",
+                "aria-label": "",
+                "type": "date_picker",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "display_format": "d\/m\/Y",
+                "return_format": "j F Y",
+                "first_day": 1
+            },
+            {
+                "key": "field_63bda83318fef",
+                "label": "Job Location",
+                "name": "job_location",
+                "aria-label": "",
+                "type": "text",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "maxlength": "",
+                "placeholder": "",
+                "prepend": "",
+                "append": ""
+            },
+            {
+                "key": "field_63bef2f220e57",
+                "label": "Job Type",
+                "name": "job_type",
+                "aria-label": "",
+                "type": "radio",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "choices": {
+                    "Full-time": "Full-time",
+                    "Part-time": "Part-time"
+                },
+                "default_value": "",
+                "return_format": "value",
+                "allow_null": 0,
+                "other_choice": 0,
+                "layout": "vertical",
+                "save_other_choice": 0
+            },
+            {
+                "key": "field_63bdaef845807",
+                "label": "Job Description",
+                "name": "job_description",
+                "aria-label": "",
+                "type": "wysiwyg",
+                "instructions": "",
+                "required": 0,
+                "conditional_logic": 0,
+                "wrapper": {
+                    "width": "",
+                    "class": "",
+                    "id": ""
+                },
+                "default_value": "",
+                "tabs": "all",
+                "toolbar": "full",
+                "media_upload": 1,
+                "delay": 0
+            }
+        ],
+        "location": [
+            [
+                {
+                    "param": "post_type",
+                    "operator": "==",
+                    "value": "jobs"
+                }
+            ]
+        ],
+        "menu_order": 0,
+        "position": "normal",
+        "style": "default",
+        "label_placement": "top",
+        "instruction_placement": "label",
+        "hide_on_screen": "",
+        "active": true,
+        "description": "",
+        "show_in_rest": 0
+    }
+]
